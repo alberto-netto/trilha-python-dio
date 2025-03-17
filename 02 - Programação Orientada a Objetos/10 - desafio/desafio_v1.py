@@ -183,7 +183,7 @@ def depositar(clientes):
         print("\n@@@ Cliente não encontrado! @@@")
         return
 
-    valor = float(input("Informe o valor do depósito: "))
+    valor = float(input("Informe o valor do depósito: R$ "))
     transacao = Deposito(valor)
 
     conta = recuperar_conta_cliente(cliente)
@@ -200,7 +200,7 @@ def sacar(clientes):
         print("\n@@@ Cliente não encontrado! @@@")
         return
 
-    valor = float(input("Informe o valor do saque: "))
+    valor = float(input("Informe o valor do saque: R$ "))
     transacao = Saque(valor)
 
     conta = recuperar_conta_cliente(cliente)
