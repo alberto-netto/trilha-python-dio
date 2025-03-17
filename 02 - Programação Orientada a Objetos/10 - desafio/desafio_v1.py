@@ -305,6 +305,7 @@ def main():
         else:
             print("\n@@@ Operação inválida! @@@")
 
-main()
+if __name__ == "__main__":
+    main()
 
 
